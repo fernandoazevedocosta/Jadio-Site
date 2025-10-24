@@ -19,7 +19,7 @@ export function Instrucoes() {
       
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 max-w-6xl w-full px-5 md:px-0">
        
-        <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
           <img src={BateriaImg} alt="icone bateria" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold font-display">1. Ligar o Protótipo</span>
@@ -31,7 +31,7 @@ export function Instrucoes() {
         </div>
 
       
-        <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
           <img src={WifiImg} alt="icone wifi" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold font-display">2. Conexão com o Aplicativo</span>
@@ -41,7 +41,7 @@ export function Instrucoes() {
           </p>
         </div>
 
-        <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
           <img src={MapaImg} alt="icone mapa" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold">3. Escolha do Local</span>
@@ -50,7 +50,7 @@ export function Instrucoes() {
         </div>
 
   
-        <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
           <img src={CelularImg} alt="icone celular" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold">4. Acompanhamento pelo app</span>
@@ -61,7 +61,7 @@ export function Instrucoes() {
         </div>
 
       
-        <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
           <img src={CheckImg} alt="icone check" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold ">5. Retirada e limpeza</span>
@@ -75,7 +75,7 @@ export function Instrucoes() {
      
       <section className="max-w-6xl w-full mt-12 px-5 md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10">
        
-        <div className="bg-red-50 border border-red-300 rounded-xl p-6 shadow-sm text-red-700 cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-red-50 border border-red-300 rounded-xl p-6 shadow-lg text-red-700 cursor-default dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-4">
             <img src={WarningImg} alt="icone warning" className="w-7 h-7" />
             <h3 className="text-2xl font-display font-bold">Instruções de Segurança</h3>
@@ -91,7 +91,7 @@ export function Instrucoes() {
         </div>
 
 
-        <div className="border border-gray-200 rounded-xl h-56 flex items-center justify-center text-gray-500 font-semibold shadow-sm cursor-default">
+        <div className="border border-gray-200 rounded-xl h-56 flex items-center justify-center text-gray-500 font-semibold shadow-lg cursor-default">
           VIDEO DEMONSTRATIVO:
         </div>
       </section>

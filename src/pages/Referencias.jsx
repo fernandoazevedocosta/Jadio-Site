@@ -12,7 +12,7 @@ export function Referencias() {
       <div className="grid gap-6">
         
         
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
             <span className="bg-blue-500/50  text-blue-600 px-2 py-1 rounded-md font-medium">
@@ -29,7 +29,7 @@ export function Referencias() {
         </div>
 
         
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
             <span className="bg-blue-500/50 text-blue-600 px-2 py-1 rounded-md font-medium">
@@ -46,7 +46,7 @@ export function Referencias() {
         </div>
 
         
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
             <span className="bg-green-500/50 text-green-600 px-2 py-1 rounded-md font-medium">
@@ -63,7 +63,7 @@ export function Referencias() {
         </div>
 
         
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
             <span className="bg-green-500/50 text-green-600 px-2 py-1 rounded-md font-medium">
@@ -80,7 +80,7 @@ export function Referencias() {
         </div>
 
         
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
             <span className="bg-purple-500/50 text-purple-600 px-2 py-1 rounded-md font-medium">
@@ -97,7 +97,7 @@ export function Referencias() {
         </div>
 
        
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
             <span className="bg-purple-500/50 text-purple-600 px-2 py-1 rounded-md font-medium">

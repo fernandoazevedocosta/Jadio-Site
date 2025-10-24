@@ -21,7 +21,7 @@ export function Sobre() {
 
       
       <div className="grid gap-6 md:grid-cols-3 mb-16 max-w-6xl">
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <img src={FlechaImg} alt="Missão" className="w-10 h-10 mx-right mb-3" />
           <h2 className="text-2xl font-bold mb-2 text-justify text-left dark:text-white">Nossa Missão</h2>
           <p className="text-gray-500 text-justify text-left">
@@ -30,7 +30,7 @@ export function Sobre() {
           </p>
         </div>
 
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <img src={LuzImg} alt="Visão" className="w-10 h-10 mx-right mb-3" />
           <h2 className="text-2xl font-bold mb-2 text-justify text-left dark:text-white">Nossa Visão</h2>
           <p className="text-gray-500 text-justify text-left">
@@ -39,7 +39,7 @@ export function Sobre() {
           </p>
         </div>
 
-        <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white shadow-lg hover:shadow-2xl transition-shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <img src={MedalhaImg} alt="Valores" className="w-10 h-10 mx-right mb-3" />
           <h2 className="text-2xl font-bold mb-2 text-justify text-left dark:text-white">Nossos Valores</h2>
           <p className="text-gray-500 text-justify text-left">
@@ -57,7 +57,7 @@ export function Sobre() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 max-w-6xl">
   <div>
     <img src={FernandoImg} alt="Fernando Azevedo" className="w-28 h-28 rounded-full mx-auto object-cover" />
-    <p className="mt-3 font-medium dark:text-white">Fernando Azevedo</p>
+    <p className="mt-3 font-medium dark:text-white">Fernando Costa</p>
     <a href="https://instagram.com/feacostaa" 
        target="_blank" 
        rel="noopener noreferrer" 

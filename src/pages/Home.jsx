@@ -26,7 +26,7 @@ export function Home() {
           <img
             src={PeixeImg}
             alt="Peixe robô JADIO"
-            className="rounded-2xl shadow-lg w-full max-w-4xl mx-auto h-auto object-cover"
+            className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto h-auto object-cover"
           />
         </div>
 
@@ -60,7 +60,7 @@ export function Home() {
        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-12 px-2">
          
-          <article className="p-6 border rounded-2xl shadow-sm hover:shadow-lg transition bg-white dark:bg-[rgb(35,41,55)]">
+          <article className="p-6 border rounded-2xl shadow-lg hover:shadow-2xl transition bg-white dark:bg-[rgb(35,41,55)]">
             <img src={OndinhasImg} alt="Ondinhas" className=" mx-auto w-10 sm:w-12 h-auto" />
             <h3 className="text-2xl mt-5 font-bold dark:text-white">Navegação Inteligente</h3>
             <p className="mt-3 text-gray-600 leading-relaxed text-justify text-left dark:text-white">
@@ -69,7 +69,7 @@ export function Home() {
           </article>
 
          
-          <article className="p-6 border rounded-2xl shadow-sm hover:shadow-lg transition bg-white dark:bg-[rgb(35,41,55)]">
+          <article className="p-6 border rounded-2xl shadow-lg hover:shadow-2xl transition bg-white dark:bg-[rgb(35,41,55)]">
             <img src={RaioImg} alt="Raio" className=" mx-auto w-10 sm:w-12 h-auto" />
             <h3 className="text-2xl mt-5 font-bold dark:text-white">Energia Sustentável</h3>
             <p className="mt-3 text-gray-600 leading-relaxed text-justify text-left dark:text-white">
@@ -78,7 +78,7 @@ export function Home() {
           </article>
 
          
-          <article className="p-6 border rounded-2xl shadow-sm hover:shadow-lg transition bg-white dark:bg-[rgb(35,41,55)]">
+          <article className="p-6 border rounded-2xl shadow-lg hover:shadow-2xl transition bg-white dark:bg-[rgb(35,41,55)]">
             <img src={EscudoImg} alt="Escudo" className=" mx-auto w-10 sm:w-12 h-auto" />
             <h3 className="text-2xl mt-5 font-bold dark:text-white">Design Biomimético</h3>
             <p className="mt-3 text-gray-600 leading-relaxed text-justify text-left dark:text-white">
@@ -90,7 +90,7 @@ export function Home() {
 
       
       <section className="max-w-3xl w-full mt-20 mb-24 px-8 ">
-        <div className="p-12 border shadow-lg rounded-3xl bg-white text-center dark:bg-[rgb(35,41,55)]">
+        <div className="p-12 border shadow-2xl rounded-3xl bg-white text-center dark:bg-[rgb(35,41,55)]">
           <img
             src={ControleRosaImg}
             alt="Controle Rosa"

@@ -16,7 +16,7 @@ export function Materiais() {
      
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12 w-full max-w-4xl place-items-center">
         
-        <div className="bg-white rounded-2xl shadow p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
           <img src={ChipImg} alt="Chip" className="w-8 mb-2" />
           <h2 className="text-2xl font-semibold dark:text-white">Componentes Eletrônicos</h2>
           <p className="text-gray-600 mt-1">Esp32</p>
@@ -25,14 +25,14 @@ export function Materiais() {
         </div>
 
         
-        <div className="bg-white rounded-2xl shadow p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
           <img src={EnergiaImg} alt="Energia" className="w-8 mb-2" />
           <h2 className="text-2xl font-semibold dark:text-white">Sistema de Energia</h2>
           <p className="text-gray-600 mt-1">Bateria</p>
         </div>
 
        
-        <div className="bg-white rounded-2xl shadow p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
           <img src={ConfigImg} alt="Config" className="w-8 mb-2" />
           <h2 className="text-2xl font-semibold dark:text-white">Sistema Mecânico</h2>
           <p className="text-gray-600 mt-1">Motor Dc</p>
@@ -40,7 +40,7 @@ export function Materiais() {
         </div>
 
        
-        <div className="bg-white rounded-2xl shadow p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col w-full h-full dark:bg-[rgb(35,41,55)]">
           <img src={EscudoLaranjaImg} alt="Escudo" className="w-8 mb-2" />
           <h2 className="text-2xl font-semibold dark:text-white">Materiais Estruturais</h2>
           <p className="text-gray-600 mt-1">Cloro</p>
@@ -50,7 +50,7 @@ export function Materiais() {
       </div>
 
       
-      <div className="bg-white rounded-2xl shadow p-8 flex flex-col items-center mt-12 w-full max-w-2xl mb-24 dark:bg-[rgb(35,41,55)]">
+      <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center mt-12 w-full max-w-2xl mb-24 dark:bg-[rgb(35,41,55)]">
         <img src={DollarImg} alt="Dollar" className="w-10 mb-3" />
         <h3 className="text-2xl font-bold dark:text-white">Custo Total do Protótipo</h3>
         <h4 className="text-2xl text-cyan-500 font-bold mt-2">R$500</h4>

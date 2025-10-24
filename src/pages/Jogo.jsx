@@ -23,7 +23,7 @@ export function Jogo() {
         <img
           src={PeixeFeioImg}
           alt="EcoShark Game"
-          className="rounded-2xl shadow-md w-full object-cover"
+          className="rounded-2xl shadow-2xl w-full object-cover"
         />
       </div>
 
@@ -33,7 +33,7 @@ export function Jogo() {
      
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-4xl">
        
-        <div className="flex flex-col items-center bg-white rounded-2xl p-6 shadow hover:shadow-lg transition dark:bg-[rgb(35,41,55)]">
+        <div className="flex flex-col items-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition dark:bg-[rgb(35,41,55)]">
           <img src={ReciclavelImg} alt="Reciclável" className="w-10 mb-2" />
           <h3 className="text-2xl font-semibold dark:text-white">Como Funciona</h3>
           <p className="text-gray-600 text-center mt-1">
@@ -42,7 +42,7 @@ export function Jogo() {
         </div>
 
        
-        <div className="flex flex-col items-center bg-white rounded-2xl p-6 shadow hover:shadow-lg transition dark:bg-[rgb(35,41,55)]">
+        <div className="flex flex-col items-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition dark:bg-[rgb(35,41,55)]">
           <img src={NintendoImg} alt="Nintendo" className="w-10 mb-2" />
           <h3 className="text-2xl font-semibold dark:text-white">Personagem</h3>
           <p className="text-gray-600 text-center mt-1">
@@ -51,7 +51,7 @@ export function Jogo() {
         </div>
 
         
-        <div className="flex flex-col items-center bg-white rounded-2xl p-6 shadow hover:shadow-lg transition dark:bg-[rgb(35,41,55)]">
+        <div className="flex flex-col items-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition dark:bg-[rgb(35,41,55)]">
           <img src={OndasImg} alt="Ondas" className="w-10 mb-2" />
           <h3 className="text-2xl font-semibold dark:text-white">Objetivo</h3>
           <p className="text-gray-600 text-center mt-1">
