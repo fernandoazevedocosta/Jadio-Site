@@ -1,5 +1,3 @@
-import { Header } from "../components/Header"
-
 import FlechaImg from "../assets/flecha.png"
 import LuzImg from "../assets/luz.png"
 import MedalhaImg from "../assets/medalha.png"
@@ -13,7 +11,6 @@ import HenriqueImg from "../assets/henrique.png"
 export function Sobre() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-white px-6 py-10 text-center dark:bg-[rgb(2,8,23)]">
-      <Header />
       <h1 className="text-3xl font-bold mb-4 dark:text-white">Quem Somos?</h1>
       <p className="text-gray-500 max-w-3xl mb-10">
         Somos cinco estudantes do Colégio Adventista UNASP. Este site faz parte do nosso TCC,

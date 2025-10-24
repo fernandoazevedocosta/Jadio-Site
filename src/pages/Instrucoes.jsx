@@ -1,4 +1,3 @@
-import { Header } from "../components/Header"
 import BateriaImg from "../assets/bateria.png";
 import WifiImg from "../assets/wifi.png";
 import MapaImg from "../assets/mapa.png";
@@ -9,7 +8,6 @@ import WarningImg from "../assets/warning.png";
 export function Instrucoes() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-white p-10 font-sans dark:bg-[rgb(2,8,23)]">
-    <Header />
       <section className="max-w-4xl text-center mb-12 px-5">
         <h1 className="text-black font-bold text-lg md:text-xl mb-2 dark:text-white ">Instruções de Uso</h1>
         <p className="text-gray-400 max-w-xl mx-auto text-sm md:text-base leading-tight md:leading-relaxed">

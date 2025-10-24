@@ -1,5 +1,4 @@
-import { Header } from "../components/Header"
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 import PeixeImg from "../assets/peixe.png";
 import OndinhasImg from "../assets/ondinhas.png";
@@ -11,7 +10,6 @@ import SetaImg from "../assets/seta.svg";
 export function Home() {
   return (
     <main className="flex flex-col items-center px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32 py-10 bg-white min-h-screen text-gray-800 dark:bg-[rgb(2,8,23)]">
-      <Header />
 
       <section className="max-w-5xl w-full text-center mt-12">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#00A6B0] leading-tight">

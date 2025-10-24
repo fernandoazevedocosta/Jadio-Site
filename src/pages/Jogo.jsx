@@ -1,4 +1,3 @@
-import { Header } from "../components/Header"
 import ControleAzulImg from "../assets/controle azul.png"
 import ReciclavelImg from "../assets/reciclavel.png"
 import NintendoImg from "../assets/nintendo.png"
@@ -9,7 +8,6 @@ export function Jogo() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-white px-4 sm:px-8 lg:px-20 py-10 dark:bg-[rgb(2,8,23)]">
       
-      <Header />
 
       
       <div className="flex flex-col items-center text-center mt-10">

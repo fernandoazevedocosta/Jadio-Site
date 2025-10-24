@@ -1,4 +1,3 @@
-import { Header } from "../components/Header"
 import ChipImg from "../assets/chip.png"
 import ConfigImg from "../assets/config.png"
 import EnergiaImg from "../assets/energia.png"
@@ -8,7 +7,6 @@ import DollarImg from "../assets/dollar.png"
 export function Materiais() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-white px-6 py-10 text-center dark:bg-[rgb(2,8,23)]">
-      <Header />
       <h1 className="text-3xl font-bold mb-4 dark:text-white">Materias e Custos</h1>
       <p className="text-gray-500 max-w-3xl mb-10">
         Uma análise transparente dos compostos e do investimento necessário
