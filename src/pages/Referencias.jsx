@@ -3,19 +3,19 @@ import LinkImg from "../assets/Link.png"
 export function Referencias() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-white px-6 py-10 px-30 mx-auto dark:bg-[rgb(2,8,23)]">
-      <h1 className="text-3xl font-bold mb-4 text-center dark:text-white">Referências</h1>
+      <h1 className="font-bold mb-4 text-center dark:text-white">Referências</h1>
       <p className="text-gray-500 max-w-3xl mb-10 text-center">
         A base de conhecimento que tornou o JADIO possível. Explore os links e recursos que guiaram nosso projeto.
       </p>
 
       
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6">
         
         
         <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
-            <span className="bg-blue-500/50  text-blue-600 px-2 py-1 text-xs rounded-md font-medium">
+            <span className="bg-blue-500/50  text-blue-600 px-2 py-1 rounded-md font-medium">
               Hardware
             </span>
           </div>
@@ -32,7 +32,7 @@ export function Referencias() {
         <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
-            <span className="bg-blue-500/50 text-blue-600 px-2 py-1 text-xs rounded-md font-medium">
+            <span className="bg-blue-500/50 text-blue-600 px-2 py-1 rounded-md font-medium">
               Hardware
             </span>
           </div>
@@ -49,7 +49,7 @@ export function Referencias() {
         <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
-            <span className="bg-green-500/50 text-green-600 px-2 py-1 text-xs rounded-md font-medium">
+            <span className="bg-green-500/50 text-green-600 px-2 py-1 rounded-md font-medium">
               Software
             </span>
           </div>
@@ -66,7 +66,7 @@ export function Referencias() {
         <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
-            <span className="bg-green-500/50 text-green-600 px-2 py-1 text-xs rounded-md font-medium">
+            <span className="bg-green-500/50 text-green-600 px-2 py-1 rounded-md font-medium">
               Software
             </span>
           </div>
@@ -83,7 +83,7 @@ export function Referencias() {
         <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
-            <span className="bg-purple-500/50 text-purple-600 px-2 py-1 text-xs rounded-md font-medium">
+            <span className="bg-purple-500/50 text-purple-600 px-2 py-1 rounded-md font-medium">
               Pesquisa
             </span>
           </div>
@@ -100,7 +100,7 @@ export function Referencias() {
         <div className="bg-white shadow rounded-2xl p-6 dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-3">
             <img src={LinkImg} alt="Link" className="w-6 h-6" />
-            <span className="bg-purple-500/50 text-purple-600 px-2 py-1 text-xs rounded-md font-medium">
+            <span className="bg-purple-500/50 text-purple-600 px-2 py-1 rounded-md font-medium">
               Pesquisa
             </span>
           </div>
