@@ -3,7 +3,7 @@ import LinkImg from "../assets/Link.png"
 export function Referencias() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-white px-6 py-10 px-30 mx-auto dark:bg-[rgb(2,8,23)]">
-      <h1 className="font-bold mb-4 text-center dark:text-white">Referências</h1>
+      <h1 className="text-4xl font-semibold mb-4 text-center dark:text-white">Referências</h1>
       <p className="text-gray-500 max-w-3xl mb-10 text-center">
         A base de conhecimento que tornou o JADIO possível. Explore os links e recursos que guiaram nosso projeto.
       </p>

@@ -140,6 +140,18 @@ export function Header() {
             Referências
           </Link>
         </nav>
+        <div className="absolute bottom-6 left-6">
+          <button
+            onClick={toggle}
+            className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer"
+          >
+            {theme === "dark" ? (
+              <img className="h-5 w-5" src={SolImg} alt="Light Mode" />
+            ) : (
+              <img className="h-5 w-5" src={LuaImg} alt="Dark Mode" />
+            )}
+          </button>
+        </div>
       </div>
     </header>
   )

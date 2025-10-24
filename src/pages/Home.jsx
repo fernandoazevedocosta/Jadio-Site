@@ -12,10 +12,10 @@ export function Home() {
     <main className="flex flex-col items-center px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32 py-10 bg-white min-h-screen text-gray-800 dark:bg-[rgb(2,8,23)]">
 
       <section className="max-w-5xl w-full text-center mt-12">
-        <h1 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 leading-tight">
+        <h1 className="font-extrabold text-7xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 leading-tight">
           JADIO
         </h1>
-        <p className="font-display mt-3 text-gray-600 font-semibold">
+        <p className="text-2xl font-display mt-3 text-gray-600 font-semibold">
           O Futuro da Limpeza de Piscinas!
         </p>
         <p className="mt-4 max-w-3xl mx-auto text-gray-500 leading-relaxed dark:text-white">
@@ -50,7 +50,7 @@ export function Home() {
 
       
       <section className="max-w-6xl w-full text-center mt-20 px-4">
-        <h2 className="font-bold text-gray-800 dark:text-white">
+        <h2 className="font-bold text-4xl text-gray-800 dark:text-white">
           Características Inovadoras
         </h2>
         <p className="mt-3 text-gray-600 max-w-xl mx-auto leading-relaxed dark:text-[rgb(146,153,173)]">
@@ -62,7 +62,7 @@ export function Home() {
          
           <article className="p-6 border rounded-2xl shadow-sm hover:shadow-lg transition bg-white dark:bg-[rgb(35,41,55)]">
             <img src={OndinhasImg} alt="Ondinhas" className=" mx-auto w-10 sm:w-12 h-auto" />
-            <h3 className="mt-5 font-semibold dark:text-white">Navegação Inteligente</h3>
+            <h3 className="text-2xl mt-5 font-bold dark:text-white">Navegação Inteligente</h3>
             <p className="mt-3 text-gray-600 leading-relaxed text-justify text-left dark:text-white">
               Com sistema de navegação autônoma, o JADIO percorre toda a superfície da piscina, desviando de obstáculos e garantindo uma limpeza rápida e eficiente.
             </p>
@@ -71,7 +71,7 @@ export function Home() {
          
           <article className="p-6 border rounded-2xl shadow-sm hover:shadow-lg transition bg-white dark:bg-[rgb(35,41,55)]">
             <img src={RaioImg} alt="Raio" className=" mx-auto w-10 sm:w-12 h-auto" />
-            <h3 className="mt-5 font-semibold dark:text-white">Energia Sustentável</h3>
+            <h3 className="text-2xl mt-5 font-bold dark:text-white">Energia Sustentável</h3>
             <p className="mt-3 text-gray-600 leading-relaxed text-justify text-left dark:text-white">
               Movido por baterias recarregáveis de longa duração, com tecnologia de carregamento por indução, o JADIO funciona de forma contínua e ecológica.
             </p>
@@ -80,7 +80,7 @@ export function Home() {
          
           <article className="p-6 border rounded-2xl shadow-sm hover:shadow-lg transition bg-white dark:bg-[rgb(35,41,55)]">
             <img src={EscudoImg} alt="Escudo" className=" mx-auto w-10 sm:w-12 h-auto" />
-            <h3 className="mt-5 font-semibold dark:text-white">Design Biomimético</h3>
+            <h3 className="text-2xl mt-5 font-bold dark:text-white">Design Biomimético</h3>
             <p className="mt-3 text-gray-600 leading-relaxed text-justify text-left dark:text-white">
               Produzido em material 3D e inspirado na anatomia de peixes reais, o JADIO nada naturalmente, reduzindo perturbações na água e aumentando a eficiência da limpeza.
             </p>
@@ -96,7 +96,7 @@ export function Home() {
             alt="Controle Rosa"
             className="mx-auto mb-6 w-20 sm:w-24 lg:w-28 h-auto"
           />
-          <h3 className="font-semibold mb-3 text-gray-900 dark:text-white">
+          <h3 className="text-4xl font-semibold mb-3 text-gray-900 dark:text-white">
             Conheça o EcoShark!
           </h3>
           <p className="text-gray-600 max-w-md mx-auto leading-relaxed dark:text-white">
