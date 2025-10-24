@@ -15,7 +15,7 @@ export function Home() {
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#00A6B0] leading-tight">
           JADIO
         </h1>
-        <p className="mt-3 text-sm sm:text-lg md:text-xl text-gray-600 font-semibold">
+        <p className="font-display mt-3 text-sm sm:text-lg md:text-xl text-gray-600 font-semibold">
           O Futuro da Limpeza de Piscinas!
         </p>
         <p className="mt-4 max-w-3xl mx-auto text-xs sm:text-base md:text-lg text-gray-500 leading-relaxed dark:text-white">
