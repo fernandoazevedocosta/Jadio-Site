@@ -8,14 +8,14 @@ import SolImg from "../assets/sol.png";
 
 export function Header() {
   const { theme, toggle } = useContext(ThemeContext);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleSidebarToggle = () => {
-    setIsSidebarOpen(!isSidebarOpen);
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <header className="w-full border-b border-gray-300 dark:border-gray-600 bg-white dark:bg-[rgb(2,8,23)]">
+    <header className="relative w-full border-b border-gray-300 dark:border-gray-600 bg-white dark:bg-[rgb(2,8,23)]">
       <div className="flex items-center justify-between px-6 py-3">
         {/* Logo */}
         <Link to="/Home" className="flex items-center gap-2">
@@ -60,10 +60,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link to="/Jogo">
-            
-          </Link>
-          <button onClick={toggle} className="w-6 h-6 md:w-7 md:h-7">
+          <button onClick={toggle} className="w-6 h-6 md:w-7 md:h-7 hidden lg:block">
             <img
               src={theme === "light" ? LuaImg : SolImg}
               alt="Theme Icon"
@@ -71,7 +68,7 @@ export function Header() {
             />
           </button>
           <button
-            onClick={handleSidebarToggle}
+            onClick={handleMenuToggle}
             className="lg:hidden w-6 h-6 md:w-7 md:h-7"
           >
             <svg
@@ -92,42 +89,55 @@ export function Header() {
         </div>
       </div>
 
-      {isSidebarOpen && (
-        <div className="lg:hidden bg-white dark:bg-[rgb(2,8,23)] border-t border-gray-200 dark:border-gray-700">
-          <nav className="flex flex-col items-center space-y-4 py-4">
+      {isMenuOpen && (
+        <div className="lg:hidden absolute top-full right-4 mt-2 w-auto bg-white dark:bg-[rgb(35,41,55)] rounded-xl shadow-2xl p-6 z-50">
+          <nav className="flex flex-col items-start space-y-4">
             <Link
               to="/Materiais"
-              className="text-[#686F82] text-base hover:text-black transition dark:hover:text-white"
-              onClick={handleSidebarToggle}
+              className="text-[#686F82] text-base font-semibold hover:text-black transition dark:hover:text-white"
+              onClick={handleMenuToggle}
             >
               Materiais
             </Link>
             <Link
               to="/Instrucoes"
-              className="text-[#686F82] text-base hover:text-black transition dark:hover:text-white"
-              onClick={handleSidebarToggle}
+              className="text-[#686F82] text-base font-semibold hover:text-black transition dark:hover:text-white"
+              onClick={handleMenuToggle}
             >
               Instruções
             </Link>
             <Link
               to="/Sobre"
-              className="text-[#686F82] text-base hover:text-black transition dark:hover:text-white"
-              onClick={handleSidebarToggle}
+              className="text-[#686F82] text-base font-semibold hover:text-black transition dark:hover:text-white"
+              onClick={handleMenuToggle}
             >
               Sobre
             </Link>
             <Link
+              to="/Jogo"
+              className="text-[#686F82] text-base font-semibold hover:text-black transition dark:hover:text-white"
+              onClick={handleMenuToggle}
+            >
+              Jogo
+            </Link>
+            <Link
               to="/Referencias"
-              className="text-[#686F82] text-base hover:text-black transition dark:hover:text-white"
-              onClick={handleSidebarToggle}
+              className="text-[#686F82] text-base font-semibold hover:text-black transition dark:hover:text-white"
+              onClick={handleMenuToggle}
             >
               Referências
             </Link>
-            <Link to="/Jogo" onClick={handleSidebarToggle}>
-              <button className="bg-[#0057FF] text-white font-semibold text-sm rounded-md px-4 py-2 hover:bg-blue-600 transition">
-                Jogue agora
-              </button>
-            </Link>
+          
+            <div className="flex items-center justify-between w-full pt-2">
+                <span className="text-[#686F82] text-base font-semibold dark:text-white"></span>
+                <button onClick={() => {toggle(); handleMenuToggle();}} className="w-7 h-7">
+                    <img
+                        src={theme === "light" ? LuaImg : SolImg}
+                        alt="Theme Icon"
+                        className="w-full h-full"
+                    />
+                </button>
+            </div>
           </nav>
         </div>
       )}

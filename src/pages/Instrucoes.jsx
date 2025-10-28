@@ -7,8 +7,8 @@ import WarningImg from "../assets/warning.png";
 
 export function Instrucoes() {
   return (
-    <main className="flex flex-col items-center min-h-screen bg-white p-10 font-sans dark:bg-[rgb(2,8,23)]">
-      <section className="max-w-4xl text-center mb-12 px-5">
+    <main className="flex flex-col items-center min-h-screen bg-white p-4 sm:p-6 md:p-10 font-sans dark:bg-[rgb(2,8,23)]">
+      <section className="max-w-4xl text-center mb-12 px-4">
         <h1 className="text-4xl font-display font-semibold text-black  mb-2 dark:text-white ">Instruções de Uso</h1>
         <p className="text-gray-400 font-display max-w-xl mx-auto leading-tight md:leading-relaxed">
           Guia completo para operar o JADIO de forma segura e eficiente. Siga estas instruções para
@@ -17,7 +17,7 @@ export function Instrucoes() {
       </section>
 
       
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 max-w-6xl w-full px-5 md:px-0">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full px-4">
        
         <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
           <img src={BateriaImg} alt="icone bateria" className="mb-3 w-6 h-6" />
@@ -49,7 +49,7 @@ export function Instrucoes() {
           <p className="text-gray-700 font-display leading-snug dark:text-[rgb(146,153,173)]">Posicione o peixe suavemente na piscina</p>
         </div>
 
-  
+      
         <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
           <img src={CelularImg} alt="icone celular" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
@@ -71,28 +71,33 @@ export function Instrucoes() {
           </p>
         </div>
       </section>
-
-     
-      <section className="max-w-6xl w-full mt-12 px-5 md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10">
-       
+      
+      <section className="max-w-6xl w-full mt-12 px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className=" rounded-xl p-6 shadow-lg cursor-default flex flex-col items-center">
+        <iframe 
+          className="w-full aspect-video rounded-xl"
+          src="https://www.youtube.com/embed/fJ9rUzIMcZQ?si=lbiGamLfF8wdapXz" 
+          title="YouTube video player" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerPolicy="strict-origin-when-cross-origin" 
+          allowFullScreen>
+        </iframe>
+        </div>
+        
         <div className="bg-red-50 border border-red-300 rounded-xl p-6 shadow-lg text-red-700 cursor-default dark:bg-[rgb(35,41,55)]">
           <div className="flex items-center gap-2 mb-4">
             <img src={WarningImg} alt="icone warning" className="w-7 h-7" />
             <h3 className="text-2xl font-display font-bold">Instruções de Segurança</h3>
           </div>
-          <ul className="list-disc font-display list-inside space-y-2 leading-snug">
-            <li>Nunca opere o JADIO enquanto houver pessoas na piscina.</li>
-            <li>Remova objetos grandes ou pontiagudos da água antes de iniciar o funcionamento.</li>
-            <li>Evite expor o dispositivo e a base de carregamento a produtos químicos corrosivos.</li>
-            <li>O JADIO não deve ser colocado debaixo da água, pois foi projetado para atuar apenas na superfície.</li>
-            <li>Tenha cuidado para que água não caia diretamente sobre o dispositivo fora da piscina.</li>
-            <li>Não coloque pesos sobre o JADIO, pois isso pode fazê-lo afundar ou danificar sua estrutura.</li>
-          </ul>
-        </div>
-
-
-        <div className="border border-gray-200 rounded-xl h-56 flex items-center justify-center text-gray-500 font-semibold shadow-lg cursor-default">
-          VIDEO DEMONSTRATIVO:
+          <div className="font-display space-y-2 leading-snug">
+            <p>• Nunca opere o JADIO enquanto houver pessoas na piscina.</p>
+            <p>• Remova objetos grandes ou pontiagudos da água antes de iniciar o funcionamento.</p>
+            <p>• Evite expor o dispositivo e a base de carregamento a produtos químicos corrosivos.</p>
+            <p>• O JADIO não deve ser colocado debaixo da água, pois foi projetado para atuar apenas na superfície.</p>
+            <p>• Tenha cuidado para que água não caia diretamente sobre o dispositivo fora da piscina.</p>
+            <p>• Não coloque pesos sobre o JADIO, pois isso pode fazê-lo afundar ou danificar sua estrutura.</p>
+          </div>
         </div>
       </section>
     </main>
