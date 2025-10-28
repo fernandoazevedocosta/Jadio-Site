@@ -2,7 +2,7 @@ import ControleAzulImg from "../assets/controle azul.png"
 import ReciclavelImg from "../assets/reciclavel.png"
 import NintendoImg from "../assets/nintendo.png"
 import OndasImg from "../assets/ondas.png"
-import PeixeFeioImg from "../assets/peixe feio.png"
+import PeixeFeioImg from "../assets/peixe-jogo.png"
 
 export function Jogo() {
   return (
@@ -11,8 +11,8 @@ export function Jogo() {
 
       
       <div className="flex flex-col items-center text-center mt-10">
-        <img src={ControleAzulImg} alt="Controle" className="w-40 sm:w-40 mb-2 " />
-        <h1 className="text-4xl font-semibold dark:text-white">EcoShawk</h1>
+        <img src={ControleAzulImg} alt="Controle" className="w-55 sm:w-55 mb-2 " />
+        <h1 className="text-4xl font-semibold dark:text-white">EcoShark</h1>
         <p className="text-gray-600 max-w-lg mt-2">
           Salve os oceanos jogando com o tubarão mais consciente do planeta
         </p>
@@ -46,7 +46,7 @@ export function Jogo() {
           <img src={NintendoImg} alt="Nintendo" className="w-10 mb-2" />
           <h3 className="text-2xl font-semibold dark:text-white">Personagem</h3>
           <p className="text-gray-600 text-center mt-1">
-            Você joga como o EcoShawk!
+            Você joga como o EcoShark!
           </p>
         </div>
 

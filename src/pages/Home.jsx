@@ -12,7 +12,7 @@ export function Home() {
     <main className="flex flex-col items-center px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32 py-10 bg-white min-h-screen text-gray-800 dark:bg-[rgb(2,8,23)]">
 
       <section className="max-w-5xl w-full text-center mt-12">
-        <h1 className="font-extrabold text-7xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 leading-tight">
+        <h1 className="font-extrabold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-900 bg-clip-text text-transparent leading-tight">
           JADIO
         </h1>
         <p className="text-2xl font-display mt-3 text-gray-600 font-semibold">
