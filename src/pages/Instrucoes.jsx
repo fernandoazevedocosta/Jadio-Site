@@ -19,7 +19,7 @@ export function Instrucoes() {
       
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full px-4">
        
-        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)] self-stretch">
           <img src={BateriaImg} alt="icone bateria" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold font-display">1. Ligar o Protótipo</span>
@@ -31,7 +31,7 @@ export function Instrucoes() {
         </div>
 
       
-        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)] self-stretch">
           <img src={WifiImg} alt="icone wifi" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold font-display">2. Conexão com o Aplicativo</span>
@@ -41,7 +41,7 @@ export function Instrucoes() {
           </p>
         </div>
 
-        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)] self-stretch">
           <img src={MapaImg} alt="icone mapa" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold">3. Escolha do Local</span>
@@ -50,7 +50,7 @@ export function Instrucoes() {
         </div>
 
       
-        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)] self-stretch">
           <img src={CelularImg} alt="icone celular" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold">4. Acompanhamento pelo app</span>
@@ -61,7 +61,7 @@ export function Instrucoes() {
         </div>
 
       
-        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow cursor-default dark:bg-[rgb(35,41,55)] self-stretch">
           <img src={CheckImg} alt="icone check" className="mb-3 w-6 h-6" />
           <h2 className="text-2xl font-display font-semibold text-black mb-1 dark:text-white">
             <span className="font-extrabold ">5. Retirada e limpeza</span>
@@ -72,20 +72,21 @@ export function Instrucoes() {
         </div>
       </section>
       
-      <section className="max-w-6xl w-full mt-12 px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className=" rounded-xl p-6 shadow-lg cursor-default flex flex-col items-center">
+      <section className="max-w-6xl w-full mt-12 px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className=" rounded-xl p-6 shadow-lg cursor-default flex flex-col items-center self-stretch">
         <iframe 
           className="w-full aspect-video rounded-xl"
-          src="https://www.youtube.com/embed/fJ9rUzIMcZQ?si=lbiGamLfF8wdapXz" 
+          src="https://www.youtube.com/embed/GwpKsT4j3eY?si=B44q9mg0kxSymoFU" 
           title="YouTube video player" 
           frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin" 
           allowFullScreen>
         </iframe>
+        
         </div>
         
-        <div className="bg-red-50 border border-red-300 rounded-xl p-6 shadow-lg text-red-700 cursor-default dark:bg-[rgb(35,41,55)]">
+        <div className="bg-red-50 border border-red-300 rounded-xl p-6 shadow-lg text-red-700 cursor-default dark:bg-[rgb(35,41,55)] self-stretch">
           <div className="flex items-center gap-2 mb-4">
             <img src={WarningImg} alt="icone warning" className="w-7 h-7" />
             <h3 className="text-2xl font-display font-bold">Instruções de Segurança</h3>
